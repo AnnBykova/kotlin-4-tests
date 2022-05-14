@@ -181,7 +181,7 @@ class ComissionCalcKtTest {
     @Test
     fun commissionCalcTestCalculateCorrectTypeMastercardBigSumDefault() {
 
-        val expectedCommission = 62_000
+        val expectedCommission = 62_001
 
         val actualCommission = commissionCalc(cardType=MASTERCARD, transferSum=10_000_000 )
 
